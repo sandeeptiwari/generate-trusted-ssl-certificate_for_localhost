@@ -1,3 +1,5 @@
+# Running Angular App over HTTPS with a Trusted Certificate
+
 # Steps 1:
 
 1- git clone https://github.com/sandeeptiwari/generate-trusted-ssl-certificate_for_localhost.git
@@ -44,8 +46,7 @@ angular-app:
   
 # In Angula 6
 
-
-"serve": {
+     "serve": {
 
           "builder": "@angular-devkit/build-angular:dev-server",
 	  
