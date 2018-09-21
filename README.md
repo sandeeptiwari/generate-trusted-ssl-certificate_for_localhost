@@ -1,8 +1,10 @@
 # Steps 1:
 
-git clone https://github.com/sandeeptiwari/generate-trusted-ssl-certificate_for_localhost.git
-cd generate-trusted-ssl-certificate_for_localhost
-bash generate.sh
+1- git clone https://github.com/sandeeptiwari/generate-trusted-ssl-certificate_for_localhost.git
+
+2- cd generate-trusted-ssl-certificate_for_localhost
+
+3- bash generate.sh (download git for windows)
 
 # Step 2: Install the certificate
 We have to make sure the browser trust our certificate, so we’re going to install it on our local machine.
@@ -43,15 +45,24 @@ angular-app:
 # In Angula 6
 
 "serve": {
+
           "builder": "@angular-devkit/build-angular:dev-server",
+	  
           "options": {
+	  
             "browserTarget": "bingClient:build",
+	    
             "ssl": true,
+	    
             "sslKey": "ssl/<your_ssl_certificate>.key",
+	    
             "sslCert": "ssl/<your_ssl_certificate>.crt"
+	    
           }
+	  
 		  ...
-	    }
+		  
+	}
 		
 # Run 
   > ng serve
