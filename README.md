@@ -9,17 +9,27 @@ We have to make sure the browser trust our certificate, so we’re going to inst
 
 # Windows 10
 
-Double click on the certificate (server.crt)
-Click on the button “Install Certificate …”
-Select whether you want to store it on user level or on machine level
-Click “Next”
-Select “Place all certificates in the following store”
-Click “Browse”
-Select “Trusted Root Certification Authorities”
-Click “Ok”
-Click “Next”
-Click “Finish”
-If you get a prompt, click “Yes”
+1- Double click on the certificate (server.crt)
+
+2- Click on the button “Install Certificate …”
+
+3- Select whether you want to store it on user level or on machine level
+
+4- Click “Next”
+
+5- Select “Place all certificates in the following store”
+
+6- Click “Browse”
+
+7- Select “Trusted Root Certification Authorities”
+
+8- Click “Ok”
+
+9- Click “Next”
+
+10- Click “Finish”
+
+11- If you get a prompt, click “Yes”
 
 # Steps 3:
 
