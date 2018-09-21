@@ -11,7 +11,7 @@ We have to make sure the browser trust our certificate, so we’re going to inst
 
 # Windows 10
 
-1- Double click on the certificate (server.crt)
+1- Double click on the certificate (<your_ssl_certificate>.crt)
 
 2- Click on the button “Install Certificate …”
 
@@ -43,6 +43,7 @@ angular-app:
   - ssl -> Copy the private key and root certificate from step 1 into the ssl folder
   
 # In Angula 6
+
 
 "serve": {
 
